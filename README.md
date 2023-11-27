@@ -8,51 +8,45 @@ The LangChain Chatbot App allows users to input questions and get responses gene
 - Real-time responses from GPT-3.5-turbo model
 - Session-based conversation history
 
-Installation
+## Installation
 
 Before running the application, ensure you have Python and Streamlit installed. You also need an OpenAI API key.
 
-    Clone the Repository:
-
-    bash
-
+## Clone the Repository:
+```
 git clone [URL to your repository]
 cd [repository name]
-
-Install Dependencies:
-
-bash
-
+```
+## Install Dependencies:
+```
 pip install -r requirements.txt
+```
+## Set Up Environment Variables:
 
-Set Up Environment Variables:
+- Create a .env file in the root directory.
+- Add your OpenAI API key:
+- `OPENAI_API_KEY=your-api-key`
 
-    Create a .env file in the root directory.
-    Add your OpenAI API key:
+## Running the Application:
 
-    plaintext
+ ```
+streamlit run app.py
+```
+The app should be accessible in your web browser at http://localhost:8501.
 
-    OPENAI_API_KEY=your-api-key
-
-Running the Application:
-
-bash
-
-    streamlit run app.py
-
-    The app should be accessible in your web browser at http://localhost:8501.
-
-Usage
+## Usage
 
 Once the app is running, you can interact with the chatbot by typing questions or messages into the text input box and clicking the "Generate Answer" button.
 Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
-License
+
+## License
 
 MIT License
-Acknowledgments
 
-    OpenAI team for the GPT models
-    LangChain library developers
-    Streamlit team
+## Acknowledgments
+
+- OpenAI team for the GPT models
+- LangChain library developers
+- Streamlit team
