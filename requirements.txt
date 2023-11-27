@@ -1,3 +1,6 @@
 langchain
 openai
 jupyter
+streamlit
+python-dotenv
+streamlit-chat
